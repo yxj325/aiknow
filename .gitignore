@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# 环境
+.env
+*.env.local
+
+# 数据
+aiknow/data/chroma/
+aiknow/data/cache/
+aiknow/logs/*.log
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

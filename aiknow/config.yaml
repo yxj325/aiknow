@@ -1,0 +1,37 @@
+﻿# 配置
+server:
+  host: "0.0.0.0"
+  port: 8000
+
+storage:
+  sqlite_path: "data/aiknow.db"
+  chroma_path: "data/chroma"
+
+embedding:
+  model: "BAAI/bge-small-zh-v1.5"
+  device: "cpu"
+  batch_size: 32
+
+llm:
+  provider: "openai"  # openai | ollama
+  model: "gpt-3.5-turbo"
+  api_base: "https://api.openai.com/v1"
+  api_key: ""
+  ollama_base: "http://localhost:11434"
+  ollama_model: "qwen2:7b"
+  temperature: 0.3
+  max_tokens: 2048
+
+chunking:
+  strategy: "heading"  # heading | semantic | fixed
+  chunk_size: 500
+  chunk_overlap: 50
+
+retrieval:
+  top_k: 5
+  rerank: true
+  mmr_lambda: 0.7
+
+logging:
+  level: "INFO"
+  file: "logs/aiknow.log"
