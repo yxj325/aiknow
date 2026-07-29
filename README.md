@@ -1,9 +1,9 @@
-# 🧠 AI知库 - 企业智能知识管家
-
-> RAG 知识库问答系统 · 零成本部署 · 开源免费
-
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://python.org)
+[![CI](https://github.com/yxj325/aiknow/actions/workflows/ci.yml/badge.svg)](https://github.com/yxj325/aiknow/actions/workflows/ci.yml)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-brightgreen)](https://yxj325.github.io/aiknow)
+
+---
 
 ---
 
