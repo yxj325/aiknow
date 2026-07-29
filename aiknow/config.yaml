@@ -35,3 +35,10 @@ retrieval:
 logging:
   level: "INFO"
   file: "logs/aiknow.log"
+
+# 网络（中国区优化）
+network:
+  pip_mirror: "https://pypi.tuna.tsinghua.edu.cn/simple"
+  request_timeout: 60
+  connect_timeout: 15
+  retry_max: 3
